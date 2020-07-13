@@ -1,12 +1,12 @@
 let variable;
 variable = 10;
-//alert(pi);
+alert(pi);
 
 let message = "hello";
-//alert(message);
+alert(message);
 
 const NUMBER_PI = 3.14;
-//alert(pi);
+alert(pi);
 
 let a = 1,
     b = "two",
@@ -18,8 +18,8 @@ var x = 3.14;
 let hello = 'Hello world!';
 let message;
 message = hello;
-//alert(hello); // Hello world!
-//alert(message); // Hello world!
+alert(hello); // Hello world!
+alert(message); // Hello world!
 
 // repeated 'let' leads to an error
 let message = "This";
