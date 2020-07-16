@@ -1,41 +1,25 @@
-// let a = +prompt('a?', '');
-
-// if (a == 0) {
-//     alert(0);
-// }
-// if (a == 1) {
-//     alert(1);
-// }
-
-// if (a == 2 || a == 3) {
-//     alert('2,3');
-// }
-
-// rewrite the code below using a single switch statement
-
-// let a = +prompt("value");
-let a = prompt("value");
-
-switch (a) {
+var caseNumber = prompt("Chase Number");
+let number;
+switch (caseNumber) {
     case null:
 
     case "":
         alert("null");
         break;
 
-    case 0:
-        alert("0");
+    case "0":
+        number = 0;
         break;
 
-    case 1:
-        alert("1");
+    case "1":
+        number = 1;
         break;
 
-    case 2:
-    case 3:
-        alert("2,3");
+    case "2":
+        number = 2;
         break;
 
     default:
         alert("unknown");
 }
+
