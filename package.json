@@ -1,0 +1,24 @@
+{
+  "name": "jsfundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teacateodor/JavaScriptFundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teacateodor/JavaScriptFundamentals/issues"
+  },
+  "homepage": "https://github.com/teacateodor/JavaScriptFundamentals#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
